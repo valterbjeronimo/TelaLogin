@@ -2,29 +2,24 @@
 
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 0%;
-    margin: 0%;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 
 }
 
-body,html{
-    background-color: #5f2c82;
-    height: 100vh;
-    width: 100vh;
 
-}
 
 body,html{
     background-color: #5f2c82;
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
 }
 
 main{
     position: relative;
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
 
 }
 
@@ -35,8 +30,8 @@ section#login{
     left: 50%;
     transform: translate(-50%,-50%);
     background-color:white;
-    height: 500px;
-    width: 250px;
+    height: 800px;
+    width: 350px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba( 0,0,0,0.450);
@@ -49,7 +44,7 @@ section#login > div#imagem{
     background: #5f2c82 url(2.jpeg);
     background-size: cover;
     background-position: left bottom;
-    height: 200px;
+    height: 500px;
 
 }
 
